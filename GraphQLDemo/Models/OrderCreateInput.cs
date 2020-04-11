@@ -1,0 +1,8 @@
+﻿namespace GraphQLDemo.Models
+{
+    public class OrderCreateInput
+    {
+        public string Name { get; set; }
+        public int CustomerId { get; set; }
+    }
+}
